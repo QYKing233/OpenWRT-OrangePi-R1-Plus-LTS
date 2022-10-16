@@ -84,3 +84,6 @@ wget -P target/linux/rockchip/armv8/base-files/usr/bin/ https://github.com/orang
 
 # 替换默认主题为 luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
+
+
+# 添加zsh
