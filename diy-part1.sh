@@ -62,6 +62,7 @@ svn export https://github.com/kenzok8/small-package/trunk/luci-app-syncthing
 
 # Add luci-app-filebrowser
 svn export https://github.com/kenzok8/small-package/trunk/luci-app-filebrowser
+svn export https://github.com/kenzok8/small-package/trunk/filebrowser
 
 
 # Add luci-app-fileassistant
