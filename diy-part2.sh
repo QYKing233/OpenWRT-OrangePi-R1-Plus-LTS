@@ -25,17 +25,17 @@ sed -i 's/192.168.1.1/192.168.233.233/g' package/base-files/files/bin/config_gen
 #
 mkdir -p target/linux/rockchip/armv8/base-files/etc/init.d
 pushd target/linux/rockchip/armv8/base-files/etc/init.d
-cp $GITHUB_WORKSPACE/pwm-fan .
+cp $GITHUB_WORKSPACE/scripts/pwm-fan .
 popd
 #
 mkdir -p target/linux/rockchip/armv8/base-files/etc/rc.d
 pushd target/linux/rockchip/armv8/base-files/etc/rc.d
-cp $GITHUB_WORKSPACE/S21pwm-fan .
+cp $GITHUB_WORKSPACE/scripts/S21pwm-fan .
 popd
 #
 mkdir -p target/linux/rockchip/armv8/base-files/usr/bin
 pushd target/linux/rockchip/armv8/base-files/usr/bin
-cp $GITHUB_WORKSPACE/pwm-fan.sh .
+cp $GITHUB_WORKSPACE/scripts/pwm-fan.sh .
 popd
 #
 
@@ -49,7 +49,7 @@ git clone https://github.com/robbyrussell/oh-my-zsh ./.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ./.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ./.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions ./.oh-my-zsh/custom/plugins/zsh-completions
-cp $GITHUB_WORKSPACE/.zshrc .
+cp $GITHUB_WORKSPACE/scripts/.zshrc .
 popd
 
 
