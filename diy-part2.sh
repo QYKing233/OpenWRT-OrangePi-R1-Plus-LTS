@@ -55,3 +55,7 @@ popd
 
 # Change default shell to zsh
 sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
+
+
+# Change kernel version
+# sed -i 's/5.15/5.10/g' target/linux/x86/Makefile
