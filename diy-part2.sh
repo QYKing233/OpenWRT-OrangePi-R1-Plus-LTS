@@ -21,7 +21,7 @@ popd
 sed -i 's/192.168.1.1/192.168.233.233/g' package/base-files/files/bin/config_generate
 
 
-# Add offical-pwm-fan
+# Add offical pwm-fan
 #
 mkdir -p target/linux/rockchip/armv8/base-files/etc/init.d
 pushd target/linux/rockchip/armv8/base-files/etc/init.d
