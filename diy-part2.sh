@@ -10,16 +10,41 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
+
+# Remove default luci-theme-argon
+pushd package/lean  
+rm -rf luci-theme-argon 
+popd
+
+
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.233.233/g' package/base-files/files/bin/config_generate
 
 
+# Add offical-pwm-fan
+#
+mkdir target/linux/rockchip/armv8/base-files/etc/init.d
+pushd target/linux/rockchip/armv8/base-files/etc/init.d
+cp $GITHUB_WORKSPACE/pwm-fan .
+popd
+#
+mkdir target/linux/rockchip/armv8/base-files/etc/rc.d
+pushd target/linux/rockchip/armv8/base-files/etc/rc.d
+cp $GITHUB_WORKSPACE/S21pwm-fan .
+popd
+#
+mkdir target/linux/rockchip/armv8/base-files/usr/bin
+pushd target/linux/rockchip/armv8/base-files/usr/bin
+cp $GITHUB_WORKSPACE/pwm-fan.sh .
+popd
+#
+
+
+## Install oh-my-zsh
 # Change default shell to zsh
 sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 mkdir -p files/root
 pushd files/root
-
-## Install oh-my-zsh
 # Clone oh-my-zsh repository
 git clone https://github.com/robbyrussell/oh-my-zsh ./.oh-my-zsh
 # Install extra plugins
