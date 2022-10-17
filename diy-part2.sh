@@ -41,8 +41,6 @@ popd
 
 
 ## Install oh-my-zsh
-# Change default shell to zsh
-sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 mkdir -p files/root
 pushd files/root
 # Clone oh-my-zsh repository
@@ -53,4 +51,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ./.oh-my-zsh/
 git clone https://github.com/zsh-users/zsh-completions ./.oh-my-zsh/custom/plugins/zsh-completions
 cp $GITHUB_WORKSPACE/.zshrc .
 popd
-  
+
+
+# Change default shell to zsh
+sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
