@@ -23,17 +23,17 @@ sed -i 's/192.168.1.1/192.168.233.233/g' package/base-files/files/bin/config_gen
 
 # Add offical-pwm-fan
 #
-mkdir target/linux/rockchip/armv8/base-files/etc/init.d
+mkdir -p target/linux/rockchip/armv8/base-files/etc/init.d
 pushd target/linux/rockchip/armv8/base-files/etc/init.d
 cp $GITHUB_WORKSPACE/pwm-fan .
 popd
 #
-mkdir target/linux/rockchip/armv8/base-files/etc/rc.d
+mkdir -p target/linux/rockchip/armv8/base-files/etc/rc.d
 pushd target/linux/rockchip/armv8/base-files/etc/rc.d
 cp $GITHUB_WORKSPACE/S21pwm-fan .
 popd
 #
-mkdir target/linux/rockchip/armv8/base-files/usr/bin
+mkdir -p target/linux/rockchip/armv8/base-files/usr/bin
 pushd target/linux/rockchip/armv8/base-files/usr/bin
 cp $GITHUB_WORKSPACE/pwm-fan.sh .
 popd
