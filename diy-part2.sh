@@ -17,14 +17,15 @@ rm -rf luci-theme-argon
 popd
 
 
-# Change luci-theme-argon background images
+# Modify luci-theme-argon background images
 pushd package/community/luci-theme-argon/htdocs/luci-static/argon/img
 cp $GITHUB_WORKSPACE/data/bg1.jpg .
 popd
 
 
-# Modify default IP
+# Modify default IP & default hostname
 sed -i 's/192.168.1.1/192.168.233.233/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/YLYQ/g' package/base-files/files/bin/config_generate
 
 
 # Add offical pwm-fan
@@ -59,9 +60,9 @@ cp $GITHUB_WORKSPACE/scripts/.zshrc .
 popd
 
 
-# Change default shell to zsh
+# Modify default shell to zsh
 sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 
 
-# Change kernel version
+# Modify kernel version
 sed -i 's/5.15/5.10/g' target/linux/x86/Makefile
