@@ -23,6 +23,13 @@ cp $GITHUB_WORKSPACE/data/bg1.jpg .
 popd
 
 
+# Modify banner
+pushd package/base-files/files/etc
+rm -rf ./banner
+cp cp $GITHUB_WORKSPACE/data/banner .
+popd
+
+
 # Modify default IP & default hostname
 sed -i 's/192.168.1.1/192.168.233.233/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/YLYQ/g' package/base-files/files/bin/config_generate
