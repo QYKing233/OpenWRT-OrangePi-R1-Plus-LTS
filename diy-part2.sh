@@ -12,8 +12,8 @@
 
 
 # Remove default luci-theme-argon
-pushd package/lean  
-rm -rf luci-theme-argon 
+pushd feeds/luci/themes  
+rm -rf ./luci-theme-argon 
 popd
 
 
