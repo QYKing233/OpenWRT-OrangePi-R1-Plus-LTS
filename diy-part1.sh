@@ -73,7 +73,7 @@ svn export https://github.com/kenzok8/small-package/trunk/luci-app-fileassistant
 svn export https://github.com/kenzok8/small-package/trunk/luci-app-beardropper
 
 
-#Add luci-app-aliddns
+#Add luci-app-alist
 git clone https://github.com/sbwml/luci-app-alist
 
 
