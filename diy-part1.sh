@@ -74,7 +74,7 @@ svn export https://github.com/kenzok8/small-package/trunk/luci-app-beardropper
 
 
 #Add luci-app-aliddns
-svn export https://github.com/kenzok8/small-package/trunk/luci-app-aliddns
+git clone https://github.com/sbwml/luci-app-alist
 
 
 ### exit package/community
