@@ -17,6 +17,13 @@ rm -rf ./luci-theme-argon
 popd
 
 
+#Modify golang_version
+pushd feeds/packages/lang/golang
+rm -rf ./*
+git clone https://github.com/sbwml/packages_lang_golang.git
+popd
+
+
 # Modify luci-theme-argon background images
 pushd package/community/luci-theme-argon/htdocs/luci-static/argon/img
 cp $GITHUB_WORKSPACE/data/bg1.jpg .
