@@ -20,7 +20,7 @@ popd
 #Modify golang_version
 pushd feeds/packages/lang/golang
 rm -rf ./*
-git clone https://github.com/sbwml/packages_lang_golang.git
+svn export https://github.com/sbwml/packages_lang_golang/branches/19.x
 popd
 
 
