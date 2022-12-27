@@ -26,7 +26,7 @@ popd
 # Modify banner
 pushd package/base-files/files/etc
 rm -rf ./banner
-cp cp $GITHUB_WORKSPACE/data/banner .
+cp $GITHUB_WORKSPACE/data/banner .
 popd
 
 
