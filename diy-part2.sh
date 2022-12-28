@@ -18,9 +18,8 @@ popd
 
 
 #Modify golang_version
-pushd feeds/packages/lang/golang
-rm -rf ./*
-svn export https://github.com/sbwml/packages_lang_golang/branches/19.x
+rm -rf feeds/packages/lang/golang
+svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
 popd
 
 
