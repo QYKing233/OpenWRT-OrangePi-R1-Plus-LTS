@@ -76,4 +76,4 @@ sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 
 
 # Modify kernel version
-sed -i 's/5.15/5.10/g' target/linux/rockchip/Makefile
+# sed -i 's/5.15/5.10/g' target/linux/rockchip/Makefile
