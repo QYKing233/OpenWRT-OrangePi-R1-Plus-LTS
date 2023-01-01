@@ -74,7 +74,7 @@ svn export https://github.com/kenzok8/small-package/trunk/luci-app-beardropper
 
 
 #Add luci-app-alist
-git clone https://github.com/sbwml/luci-app-alist
+git clone https://github.com/sbwml/luci-app-alist alist
 
 
 ### exit package/community
