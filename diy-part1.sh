@@ -11,13 +11,13 @@
 
 #### Clone community packages to package/community
 
-
-#Add luci-app-alist
-git clone https://github.com/sbwml/luci-app-alist package/alist
-
-
 mkdir package/community
 pushd package/community
+
+
+# Add luci-app-alist
+git clone https://github.com/sbwml/luci-app-alist
+
 
 # Add luci-app-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall.git
