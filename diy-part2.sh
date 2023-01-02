@@ -17,8 +17,8 @@ rm -rf feeds/luci/themes/luci-theme-argon
 
 
 # Modify golang_version
-rm -rf feeds/packages/lang/golang
-svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
+# rm -rf feeds/packages/lang/golang
+# svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
 
 
 # Modify luci-theme-argon background images
