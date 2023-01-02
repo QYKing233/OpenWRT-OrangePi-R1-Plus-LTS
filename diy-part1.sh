@@ -10,6 +10,12 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 
 #### Clone community packages to package/community
+
+
+#Add luci-app-alist
+git clone https://github.com/sbwml/luci-app-alist package/alist
+
+
 mkdir package/community
 pushd package/community
 
@@ -72,9 +78,6 @@ svn export https://github.com/kenzok8/small-package/trunk/luci-app-fileassistant
 # Add luci-app-beardropper
 svn export https://github.com/kenzok8/small-package/trunk/luci-app-beardropper
 
-
-#Add luci-app-alist
-git clone https://github.com/sbwml/luci-app-alist alist
 
 
 ### exit package/community
