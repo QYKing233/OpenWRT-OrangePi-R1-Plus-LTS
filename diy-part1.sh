@@ -16,7 +16,7 @@ pushd package/community
 
 
 # Add luci-app-alist
-git clone https://github.com/sbwml/luci-app-alist
+# git clone https://github.com/sbwml/luci-app-alist
 
 
 # Add luci-app-passwall
