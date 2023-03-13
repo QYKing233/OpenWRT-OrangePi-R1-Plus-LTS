@@ -51,7 +51,7 @@ svn export https://github.com/Boos4721/OpenWrt-Packages/trunk/luci-app-adguardho
 
 # Add luci-app-argon-config & luci-app-argon 
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config.git
-git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 
 
 # Add open-app-filter
