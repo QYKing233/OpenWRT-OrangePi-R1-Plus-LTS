@@ -17,7 +17,7 @@
     
     下载固件请去release
     
-- [TG群组：](https://t.me/orangepi_openwrt)
+- [点我加入TG群组](https://t.me/orangepi_openwrt)
 
 
 ## 感谢
