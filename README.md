@@ -16,6 +16,8 @@
     有部分板子体质差，请自行测试，估计绷不住
     
     下载固件请去release
+    
+    TG群组：<https://t.me/orangepi_openwrt>
    
 
 ## 感谢
