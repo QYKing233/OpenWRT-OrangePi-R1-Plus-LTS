@@ -11,12 +11,12 @@
     
     默认密码password
     
-    Action不再维护
+    Action不再维护，采用本地编译后发布到release
     
     有部分板子体质差，请自行测试，估计绷不住
     
-    下载固件请去release
-    
+- [点我下载固件](https://github.com/QYKing233/OpenWRT-OrangePi-R1-Plus-LTS/releases)
+
 - [点我加入TG群组](https://t.me/orangepi_openwrt)
 
 
