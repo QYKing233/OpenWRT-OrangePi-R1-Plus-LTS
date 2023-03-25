@@ -11,7 +11,7 @@
     
     默认密码password
     
-    Action不再维护，采用本地编译后发布到release
+    Action不再维护，采用本地编译后发布到releases
     
     有部分板子体质差，请自行测试，估计绷不住
     
