@@ -15,9 +15,9 @@
     
     有部分板子体质差，请自行测试，估计绷不住
     
-- [点我下载固件](https://github.com/QYKing233/OpenWRT-OrangePi-R1-Plus-LTS/releases)
+- [:point_right:点我下载固件](https://github.com/QYKing233/OpenWRT-OrangePi-R1-Plus-LTS/releases)
 
-- [点我加入TG群组](https://t.me/orangepi_openwrt)
+- [:point_right:点我加入TG群组](https://t.me/orangepi_openwrt)
 
 
 ## 感谢
