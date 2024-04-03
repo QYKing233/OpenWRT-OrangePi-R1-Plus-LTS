@@ -6,7 +6,7 @@
 **插件一览表如下**</br>
 | 状态 | 系统 | 服务 | Docker | 网络存储 | VPN | 网络 | 带宽监控 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 概览 | Web管理 | PassWall | 概览 | 文件助手 | SSR MuDB 服务器 | 接口 | 显示 |
+| 概览 | Web管理 | PassWall | 概览 | 文件助手 | V2raya 服务器 | 接口 | 显示 |
 | 防火墙 | 系统 | Hellow Word | 容器 | 存储同步 | N2N VPN | DHCP/DNS | 配置 |
 | 路由表 | 管理权 | 阿里云盘 FUSE | 镜像 | Alist 文件列表 | IPSec VPN 服务器 | 主机名 | 备份 |
 | 系统日志 | 终端均衡器 | ADGuard Home | 网络 | qBittorrent | SoftEther VPN 服务器 | IP/MAC 绑定 | 实时流量监测 |
